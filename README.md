@@ -1,9 +1,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=BookStore&fontSize=70" />
 
-# React 이용 간단한 서점 웹사이트
+# 📖 React 이용 간단한 서점 웹사이트 📖
 
-사이트 이동 : <a href="https://eogks0218.github.io/DH_BookStore/">DH's BookStore</a>
+사이트 이동 : <a href="https://eogks0218.github.io/DH_BookStore/">📚 DH's BookStore</a>
 
 ## 📌목차
 
