@@ -3,11 +3,20 @@
 
 # React 이용 간단한 서점 웹사이트
 
+사이트 이동 : <a href="https://eogks0218.github.io/DH_BookStore/">DH's BookStore</a>
+
 ## 📌목차
 
 <ul>
+  <li>📂프로젝트 구성</li>
   <li>📺페이지 설명</li>
+  <li>😱문제점</li>
+  <li>💡해결방안</li>
 </ul>
+
+## 프로젝트 구성
+
+<img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/1968861a-d1f0-403d-a46d-f7d11328357b" />
 
 ## 페이지 설명
 
@@ -98,5 +107,42 @@
   <li>아이디를 제외한 정보 수정 가능</li>
   <li>회원 탈퇴 가능</li>
 </ul>
+
+## 문제점
+
+### `DB 및 Server 미연결`
+<ul>
+  <li>사이트 재접속 또는 새로고침할 때마다 회원정보 등 초기화</li>
+</ul>
+
+### `내부 데이터 사용`
+<ul>
+  <li>이미지 및 도서 정보 등 내부 데이터 사용으로 코딩시간 증가</li>
+</ul>
+
+### `DeskTop 전용 UI`
+<ul>
+  <li>모바일 등 다른 기기들을 고려하지 않은 UI 설계</li>
+</ul>
+
+## 해결방안
+
+### `DB 및 Server 연결`
+<ul>
+  <li>DB 연결 후 Aws 서버 연동으로 해결 가능</li>
+  <li>서버가 유료라 부담되면 적어도 DB라도 연결하기</li>
+</ul>
+
+### `DB에 데이터 저장 및 외부 데이터 찾기`
+<ul>
+  <li>도서 Api가 따로 있나 찾아보고 사용하기</li>
+  <li>없을 시 json보다는 DB에 저장해서 사용하기</li>
+</ul>
+
+### `다른 기기에서도 접속 가능한 UI 설계`
+<ul>
+  <li>모바일, Mac 등 Desktop을 제외한 기기에서도 UI가 올바르게 출력하도록 설계하기</li>
+</ul>
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer" />
