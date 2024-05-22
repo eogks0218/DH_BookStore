@@ -8,7 +8,7 @@ const Main = () => {
         <div style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center'}}>
             <section className='mainImg'>
                 <div style={{textAlign:'center'}}>
-                    <img src="../image/OIG1.jpg" alt="OIG1" />
+                    <img src="https://eogks0218.github.io/BookStore/image/OIG1.jpg" alt="OIG1" />
                 </div>
             </section>
             <section className='mainMenu'>

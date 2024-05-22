@@ -8,7 +8,7 @@ export default function TabIntro(){
                 <li>
                     <span>Interval Text</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/intro_1.JPG" /></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/intro_1.JPG" /></li>
                         <li className="detailTitle">사용 함수 : useState, useEffect</li>
                         <li className="detailContent">
                             웹사이트의 소개 문구를 타이핑 효과로 보여줍니다.<br />
@@ -20,7 +20,7 @@ export default function TabIntro(){
                 <li>
                     <span>Introduce Tab</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/intro_2.JPG"></img></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/intro_2.JPG"></img></li>
                         <li className="detailTitle">사용 함수 : useSelector, useDispatch</li>
                         <li className="detailContent">
                             사용자가 소개 페이지에서 다른 탭으로 전환할 수 있게 합니다.<br />

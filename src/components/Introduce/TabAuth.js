@@ -8,7 +8,7 @@ export default function TabAuth(){
                 <li>
                     <span>Register</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/auth_1.JPG" /></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/auth_1.JPG" /></li>
                         <li className="detailTitle">사용 함수 : useState, useRef, useEffect, register_member</li>
                         <li className="detailContent">
                             회원가입 기능을 제공합니다.<br />
@@ -22,7 +22,7 @@ export default function TabAuth(){
                 <li>
                     <span>Login</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/auth_2.JPG" /></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/auth_2.JPG" /></li>
                         <li className="detailTitle">사용 함수 : useState, login_member</li>
                         <li className="detailContent">
                             로그인 기능을 제공합니다.<br />
@@ -34,7 +34,7 @@ export default function TabAuth(){
                 <li>
                     <span>Find User</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/auth_3.JPG" style={{ width: "240px", marginRight: "10px" }} /><img alt="" src="/Introduce/auth_4.JPG" style={{ width: "240px" }}/></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/auth_3.JPG" style={{ width: "240px", marginRight: "10px" }} /><img alt="" src="/Introduce/auth_4.JPG" style={{ width: "240px" }}/></li>
                         <li className="detailTitle">사용 함수 : useState, useEffect, useSelector</li>
                         <li className="detailContent">
                             아이디와 비밀번호 찾기 기능을 제공합니다.<br />
@@ -47,7 +47,7 @@ export default function TabAuth(){
                 <li>
                     <span>My Page</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/auth_5.JPG" style={{ width: "240px", marginRight: "10px" }} /><img alt="" src="/Introduce/auth_6.JPG" style={{ width: "240px" }}/></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/auth_5.JPG" style={{ width: "240px", marginRight: "10px" }} /><img alt="" src="/Introduce/auth_6.JPG" style={{ width: "240px" }}/></li>
                         <li className="detailTitle">사용 함수 : useState, useEffect, useDispatch, useSelector, useParams, useNavigate, edit_member, remove_member</li>
                         <li className="detailContent">
                             회원정보 조회 및 수정을 위한 기능을 제공합니다.<br />

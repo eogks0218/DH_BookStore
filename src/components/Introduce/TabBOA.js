@@ -8,7 +8,7 @@ export default function TabBOA(){
                 <li>
                     <span>View Style</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/BOA_1.JPG" style={{ width: "150px" }}/></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/BOA_1.JPG" style={{ width: "150px" }}/></li>
                         <li className="detailTitle">사용 함수 : useState</li>
                         <li className="detailContent">
                             Grid View 또는 List View로 볼 수 있게 해주는 기능을 제공합니다.<br />
@@ -20,7 +20,7 @@ export default function TabBOA(){
                 <li>
                     <span>Author Select</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/BOA_2.JPG" style={{ width: "150px" }}/></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/BOA_2.JPG" style={{ width: "150px" }}/></li>
                         <li className="detailTitle">사용 함수 : useSelector, useDispatch, useEffect</li>
                         <li className="detailContent">
                             사용자가 특정 작가를 선택할 수 있게 합니다.<br />
@@ -32,7 +32,7 @@ export default function TabBOA(){
                 <li>
                     <span>Grid Style</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/BOA_3.JPG"/></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/BOA_3.JPG"/></li>
                         <li className="detailTitle">사용 함수 : useEffect</li>
                         <li className="detailContent">
                             데이터를 격자 형태로 보여줍니다.<br />
@@ -44,7 +44,7 @@ export default function TabBOA(){
                 <li>
                     <span>List Style</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/BOA_4.JPG"/></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/BOA_4.JPG"/></li>
                         <li className="detailTitle">사용 함수 : useEffect, useSelector, useDispatch</li>
                         <li className="detailContent">
                             데이터를 리스트 형태로 보여줍니다.<br />

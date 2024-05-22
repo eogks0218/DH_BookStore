@@ -8,9 +8,9 @@ export default function TabETC(){
                 <li>
                     <span>Top Menu</span>
                     <ul>
-                        <li><img alt="" src="/Introduce/ETC_1.JPG" /></li>
-                        <li><img alt="" src="/Introduce/ETC_2.JPG" /></li>
-                        <li><img alt="" src="/Introduce/ETC_3.JPG" /></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/ETC_1.JPG" /></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/ETC_2.JPG" /></li>
+                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/ETC_3.JPG" /></li>
                         <li className="detailTitle">사용 함수 : useSelector, useDispatch, useState, useRef, useEffect</li>
                         <li className="detailContent">
                             상단 메뉴바를 구현하고, 사용자 인증 상태에 따라 메뉴를 다르게 표시합니다.<br />
@@ -27,7 +27,7 @@ export default function TabETC(){
                 <li>
                     <span>Side Menu</span>
                     <ul>
-                    <li><img alt="" src="/Introduce/ETC_4.JPG" style={{ width: "150px", marginRight: "10px" }}/><img alt="" src="/Introduce/ETC_5.JPG" style={{ width: "150px" }}/></li>
+                    <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/ETC_4.JPG" style={{ width: "150px", marginRight: "10px" }}/><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/ETC_5.JPG" style={{ width: "150px" }}/></li>
                     <li></li>
                         <li className="detailTitle">사용 함수 : useState, useEffect, useDispatch, useLocation</li>
                         <li className="detailContent">
@@ -42,7 +42,7 @@ export default function TabETC(){
                 <li>
                     <span>ScrollMove</span>
                     <ul>
-                    <li><img alt="" src="/Introduce/ETC_6.JPG" style={{ width: "100px" }}/></li>
+                    <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/ETC_6.JPG" style={{ width: "100px" }}/></li>
                         <li className="detailTitle">사용 함수 : useState, useEffect</li>
                         <li className="detailContent">
                             페이지 스크롤을 제어하여 사용자가 페이지 상단으로 쉽게 이동할 수 있게 합니다.<br />
