@@ -1,0 +1,136 @@
+.authorList{
+    list-style: none;
+    padding: 10px 20px;
+    width: 30%;
+    border: none;
+    background-color: #EBE3D5;
+    color: #776B5D;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-right: 0;
+    li{
+        margin-bottom: 40px;
+    }
+}
+
+.author-container{
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5vh;
+    padding-bottom: 20px;
+    border-bottom: 5px double #776B5D;
+}
+
+.viewStyle{
+    font-size: 2.5vh;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    svg{
+        margin-right: 10px;
+    };
+    span{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.AuthorBooksContainer{
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .gridShowBox{
+        width: 120px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+            margin-bottom: 5px;
+        }
+        span{
+            font-size: 1.3vh;
+            text-align: center;
+        }
+    };
+    .listShowBox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding-bottom: 30px;
+        border-bottom: 3px dotted #B0A695;
+        .listBox{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            .imgBox{
+                width: auto;
+                height: auto;
+                margin-right: 20px;
+                img{
+                    width: 130px;
+                }
+            }
+            .titleBox{
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                margin-left: 0;
+                .title{
+                    font-size: 2vh;
+                    margin-top: 20px;
+                    width: 100%;
+                    text-align: left;
+                }
+                .author{
+                    font-size: 1.25vh;
+                    text-align: left;
+                    width: 100%;
+                    color: #B0A695;
+                    margin-top: 5px;
+                }
+                .price{
+                    font-size: 1.25vh;
+                    text-align: left;
+                    width: 100%;
+                    color: #B0A695;
+                    margin-bottom: 50px;
+                    margin-top: 10px;
+                }
+                .basket{
+                    font-size: 4vh;
+                    svg{
+                        margin: auto 10px;
+                        transition: all 0.3s ease-in-out;
+                        padding: 5px;
+                        border-radius: 5px;
+                        &:hover{
+                            cursor: pointer;
+                            box-shadow: 0 0 2px 2px #776B5D;;
+                        }
+                    }
+                }
+            }
+        }
+        .content{
+            font-size: 1.25vh;
+        }
+    }
+}

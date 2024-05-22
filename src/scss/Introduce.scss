@@ -1,0 +1,61 @@
+.introduceTab{
+    width: 600px;
+    display: flex;
+    font-size: 0.9rem;
+    .tab{
+        border: 3px solid #776B5D;
+        padding: 5px;
+        border-bottom: none;
+        border-radius: 10px 10px 0 0 ;
+    }
+    .hideTab{
+        border: 3px solid #B0A695;
+        color: #B0A695;
+        transition: all 0.5s ease-in-out;
+        &:hover{
+            cursor: pointer;
+            background-color: #EBE3D5;
+            color: #776B5D;
+        }
+    }
+}
+
+.showTabBox{
+    width: 600px;
+    border: 3px solid #776B5D;
+    border-top: none;
+    padding: 10px;
+    padding-top: 40px;
+    transition: all 1s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.detailIntroduce{
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    ol{
+        li{
+            ul{
+                list-style: none;
+                li{
+                    margin-bottom: 10px;
+                    img{
+                        width: 400px;
+                        border: 1px dotted #B0A695;
+                        margin: 10px auto;
+                        padding: 5px;
+                    }
+                }
+                .detailTitle{
+                    font-size: 1rem;
+                }
+                .detailContent{
+                    font-size: 0.7rem;
+                    color: #B0A695;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}

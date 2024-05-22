@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "Introduce",
+        "src" : "image/menu1.jpg",
+        "link" : "introduce"
+    },
+    {
+        "name" : "베스트셀러",
+        "src" :"image/menu2.jpg",
+        "link" : "bestSellers"
+    },
+    {
+        "name" : "작가별 도서목록",
+        "src" :"image/menu3.jpg",
+        "link" : "Authors"
+    }
+]
