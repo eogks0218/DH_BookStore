@@ -15,9 +15,15 @@
   <li>💡해결방안</li>
 </ul>
 
+
+
+
 ## 📂프로젝트 구성
 
 <img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/1968861a-d1f0-403d-a46d-f7d11328357b" />
+
+
+
 
 ## 📺페이지 설명
 
@@ -31,6 +37,7 @@
   <li>각 메뉴로 이동 기능</li>
 </ul>
 
+
 ### `Register & Login`
 
 <img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/4c39b048-3842-40f2-9d28-54b2f362b361" width="350px" />
@@ -43,6 +50,7 @@
   <li>아이디 및 비밀번호 분실 시 Find 페이지로 이동 가능</li>
 </ul>
 
+
 ### `Find`
 
 <img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/53a15473-28f7-488b-983b-30747e45ed54" width="350px" />
@@ -52,6 +60,7 @@
   <li>아이디 및 비밀번호 찾기 페이지</li>
   <li>tab 이용으로 아이디 찾기 또는 비밀번호 찾기로 화면 전환 가능</li>
 </ul>
+
 
 ### `Introduce`
 
@@ -63,6 +72,7 @@
   <li>각 페이지에 대한 설명문</li>
   <li>인증 상태(로그인 여부)에 따른 메뉴바 출력</li>
 </ul>
+
 
 ### `Best Sellers`
 
@@ -76,6 +86,7 @@
   <li>로그인 시 장바구니 기능(담기) 사용 가능</li>
 </ul>
 
+
 ### `Book List By Author`
 
 <img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/32f6f9ca-e491-4e67-a56e-fcd9848287a1" width="350px" />
@@ -86,6 +97,7 @@
   <li>아이콘 클릭 시 View Style 변경 가능</li>
   <li>리스트 스타일로 볼 경우 장바구니 기능 사용 가능</li>
 </ul>
+
 
 ### `Shopping Basket`
 
@@ -98,6 +110,7 @@
   <li>구매하기 클릭 시 추가정보 입력 창 출력</li>
 </ul>
 
+
 ### `Edit Member`
 
 <img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/95d6b8e0-1e54-4dbf-ad24-4f221780dec7" width="350px" />
@@ -109,9 +122,13 @@
   <li>회원 탈퇴 가능</li>
 </ul>
 
+
+
+
 ## ✔프로젝트 진행 중 문제 및 해결
 
 ### `사이드 바 생성 후 메인 화면을 가리는 문제`
+
 <ol>
   <li>
     화면 작아질 시 사이드 바 숨기기. ❌
@@ -122,7 +139,9 @@
   <li>사이드바에 접기 토글 버튼 추가로 편의성 제공 ⭕</li>
 </ol>
 
+
 ### `회원가입 및 로그인 시 Enter키로 가입 및 로그인이 불가능한 문제`
+
 <ol>
   <li>
     Form태그로 변경 및 이벤트를 onSubmit으로 바꾸기. ❌
@@ -134,41 +153,66 @@
   <li>onKeyDown 이벤트 추가하기로 편의성 제공 ⭕</li>
 </ol>
 
+
+### `Books Of Author 페이지의 Select와 Side bar의 Author 선택이 일치하지 않는 문제`
+
+<ol>
+  <li>Select로 Author 선택 시 링크 이동</li>
+  <li>Sidebar에서 location으로 상태 변경하기 ⭕</li>
+</ol>
+
+
+
+
 ## 😱문제점
 
 ### `DB 및 Server 미연결`
+
 <ul>
   <li>사이트 재접속 또는 새로고침할 때마다 회원정보 등 초기화</li>
 </ul>
 
+
 ### `내부 데이터 사용`
+
 <ul>
   <li>이미지 및 도서 정보 등 내부 데이터 사용으로 코딩시간 증가</li>
 </ul>
 
+
 ### `DeskTop 전용 UI`
+
 <ul>
   <li>모바일 등 다른 기기들을 고려하지 않은 UI 설계</li>
 </ul>
 
+
+
+
 ## 💡해결방안
 
 ### `DB 및 Server 연결`
+
 <ul>
   <li>DB 연결 후 Aws 서버 연동으로 해결 가능</li>
   <li>서버가 유료라 부담되면 적어도 DB라도 연결하기</li>
 </ul>
 
 ### `DB에 데이터 저장 및 외부 데이터 찾기`
+
 <ul>
   <li>도서 Api가 따로 있나 찾아보고 사용하기</li>
   <li>없을 시 json보다는 DB에 저장해서 사용하기</li>
 </ul>
 
+
 ### `다른 기기에서도 접속 가능한 UI 설계`
+
 <ul>
   <li>모바일, Mac 등 Desktop을 제외한 기기에서도 UI가 올바르게 출력하도록 설계하기</li>
 </ul>
+
+
 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer" />
