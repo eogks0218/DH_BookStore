@@ -1,17 +1,17 @@
 [
     {
         "name" : "Introduce",
-        "src" : "https://eogks0218.github.io/BookStore/image/menu1.jpg",
+        "src" : "https://eogks0218.github.io/DH_BookStore/image/menu1.jpg",
         "link" : "introduce"
     },
     {
         "name" : "베스트셀러",
-        "src" :"https://eogks0218.github.io/BookStore/image/menu2.jpg",
+        "src" :"https://eogks0218.github.io/DH_BookStore/image/menu2.jpg",
         "link" : "bestSellers"
     },
     {
         "name" : "작가별 도서목록",
-        "src" :"https://eogks0218.github.io/BookStore/image/menu3.jpg",
+        "src" :"https://eogks0218.github.io/DH_BookStore/image/menu3.jpg",
         "link" : "Authors"
     }
 ]

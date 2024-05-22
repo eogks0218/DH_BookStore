@@ -8,7 +8,7 @@ export default function TabBS(){
                 <li>
                     <span>slick-carousel</span>
                     <ul>
-                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/BS_1.JPG" /></li>
+                        <li><img alt="" src="https://eogks0218.github.io/DH_BookStore/Introduce/BS_1.JPG" /></li>
                         <li className="detailTitle">사용 라이브러리 : slick-carousel</li>
                         <li className="detailTitle">사용 함수 : useSelector, useEffect, useState</li>
                         <li className="detailContent">
@@ -22,7 +22,7 @@ export default function TabBS(){
                 <li>
                     <span>Book List</span>
                     <ul>
-                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/BS_2.JPG" /></li>
+                        <li><img alt="" src="https://eogks0218.github.io/DH_BookStore/Introduce/BS_2.JPG" /></li>
                         <li className="detailTitle">사용 함수 : useSelector, useEffect, useDispatch</li>
                         <li className="detailContent">
                             해당 연도에 속하는 도서 목록을 표시합니다.<br />
@@ -36,7 +36,7 @@ export default function TabBS(){
                 <li>
                     <span>Pagination</span>
                     <ul>
-                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/BS_3.JPG" style={{ width: "150px" }}/></li>
+                        <li><img alt="" src="https://eogks0218.github.io/DH_BookStore/Introduce/BS_3.JPG" style={{ width: "150px" }}/></li>
                         <li className="detailTitle">사용 함수 : useState, useCallback, useRef</li>
                         <li className="detailContent">
                             페이지네이션을 구현하여 페이지 단위로 도서 목록을 표시합니다.<br />

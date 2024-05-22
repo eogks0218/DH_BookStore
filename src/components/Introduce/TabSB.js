@@ -8,7 +8,7 @@ export default function TabSB(){
                 <li>
                     <span>Shopping Basket</span>
                     <ul>
-                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/SB_1.JPG" /></li>
+                        <li><img alt="" src="https://eogks0218.github.io/DH_BookStore/Introduce/SB_1.JPG" /></li>
                         <li className="detailTitle">사용 함수 : useState, useEffect, useDispatch, useSelector</li>
                         <li className="detailContent">
                             장바구니 페이지를 구현합니다.<br />
@@ -21,7 +21,7 @@ export default function TabSB(){
                 <li>
                     <span>Shopping Modal</span>
                     <ul>
-                        <li><img alt="" src="https://eogks0218.github.io/BookStore/Introduce/SB_2.JPG" /></li>
+                        <li><img alt="" src="https://eogks0218.github.io/DH_BookStore/Introduce/SB_2.JPG" /></li>
                         <li className="detailTitle">사용 함수 : useState</li>
                         <li className="detailContent">
                             장바구니에서 상품을 구매할 때 나타나는 Modal 창을 구현합니다.<br />
