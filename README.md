@@ -3,7 +3,7 @@
 
 # <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> 간단한 서점 웹사이트 📖
 
-사이트 이동 : <a href="https://eogks0218.github.io/DH_BookStore/">📚 DH's BookStore</a>
+> 사이트 이동 : <a href="https://eogks0218.github.io/DH_BookStore/">📚 DH's BookStore</a>
 
 ## 📌목차
 
@@ -27,7 +27,7 @@
 </div>
 
 
-## 📺페이지 설명
+##  📺페이지 설명
 
 ### `Main`
 
