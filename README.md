@@ -1,78 +1,240 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=BookStore&fontSize=70" />
 
-## Available Scripts
+# <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> 간단한 서점 웹사이트 📖
 
-In the project directory, you can run:
+><b>사이트 이동</b> : <a href="https://eogks0218.github.io/DH_BookStore/">📚 DH's BookStore</a>
 
-### `yarn start`
+## 📌목차
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+▪ [📂 프로젝트 구성](#프로젝트-구성)  
+▪ [📺 페이지 설명](#페이지-설명)  
+▪ [✔ 프로젝트 진행 중 문제 및 해결](#프로젝트-진행-중-문제-및-해결)  
+▪ [😱 문제점](#문제점)  
+▪ [💡 해결방안](#해결방안)  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 📂프로젝트 구성
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/1968861a-d1f0-403d-a46d-f7d11328357b" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div align="right">
+  
+[목차로](#목차)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</div>
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##  📺페이지 설명
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Main`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/3f63ef83-2bad-4a54-b486-bcad5e2abac2" width="350px"/>
+<br />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<ul>
+  <li>메인페이지</li>
+  <li>각 메뉴로 이동 기능</li>
+</ul>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `Register & Login`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/4c39b048-3842-40f2-9d28-54b2f362b361" width="350px" />
+<br />
 
-### Code Splitting
+<ul>
+  <li>회원가입 및 로그인 페이지</li>
+  <li>tab 이용으로 아이콘 클릭 시 화면 전환</li>
+  <li>토글 버튼으로 회원가입 시 비밀번호 표시 여부 설정 가능</li>
+  <li>아이디 및 비밀번호 분실 시 Find 페이지로 이동 가능</li>
+</ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### `Find`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/53a15473-28f7-488b-983b-30747e45ed54" width="350px" />
+<br />
 
-### Making a Progressive Web App
+<ul>
+  <li>아이디 및 비밀번호 찾기 페이지</li>
+  <li>tab 이용으로 아이디 찾기 또는 비밀번호 찾기로 화면 전환 가능</li>
+</ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### `Introduce`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/cd6f4bb4-caf9-4cd5-984b-41e3c1943dde" width="350px" />
+<br />
 
-### Deployment
+<ul>
+  <li>웹사이트 소개 페이지 및 상단 메뉴바</li>
+  <li>각 페이지에 대한 설명문</li>
+  <li>인증 상태(로그인 여부)에 따른 메뉴바 출력</li>
+</ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+### `Best Sellers`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# eogks0218.github.io
->>>>>>> 5eb2c4dac85ef75f0ed05be771441b6b4509786f
-=======
-# DH_BookStore
->>>>>>> 32ad1d47a80abb6da2beff377919e6225f4f836c
+<img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/ea65ea04-226b-4185-85f4-9c6b1acd4446" width="350px" />
+<br />
+
+<ul>
+  <li>연도별 베스트셀러 페이지 및 사이드 메뉴바</li>
+  <li>선택한 연도에 맞는 이미지 및 책 정보 출력</li>
+  <li>사이드 메뉴로 링크 이동 및 연도 선택 가능</li>
+  <li>로그인 시 장바구니 기능(담기) 사용 가능</li>
+</ul>
+
+
+### `Book List By Author`
+
+<img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/32f6f9ca-e491-4e67-a56e-fcd9848287a1" width="350px" />
+<br />
+
+<ul>
+  <li>작가별 도서목록 페이지</li>
+  <li>아이콘 클릭 시 View Style 변경 가능</li>
+  <li>리스트 스타일로 볼 경우 장바구니 기능 사용 가능</li>
+</ul>
+
+
+### `Shopping Basket`
+
+<img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/f165e2a2-9f78-4268-a675-e3a08dd89cc3" width="350px" />
+<br />
+
+<ul>
+  <li>장바구니 페이지</li>
+  <li>장바구니에 담았던 책의 이미지와 가격 표시</li>
+  <li>구매하기 클릭 시 추가정보 입력 창 출력</li>
+</ul>
+
+
+### `Edit Member`
+
+<img src="https://github.com/eogks0218/DH_BookStore/assets/160206306/95d6b8e0-1e54-4dbf-ad24-4f221780dec7" width="350px" />
+<br />
+
+<ul>
+  <li>회원 정보 페이지</li>
+  <li>아이디를 제외한 정보 수정 가능</li>
+  <li>회원 탈퇴 가능</li>
+</ul>
+
+<div align="right">
+  
+[목차로](#목차)
+
+</div>
+
+
+
+## ✔프로젝트 진행 중 문제 및 해결
+  
+### `사이드 바 생성 후 메인 화면을 가리는 문제`
+
+<ol>
+  <li>
+    화면 작아질 시 사이드 바 숨기기. ❌
+    <ul>
+      <li>베스트셀러 연도 선택 등 상단 메뉴바만 사용해야 하는 불편함이 생김.</li>
+    </ul>
+  </li>
+  <li>사이드바에 접기 토글 버튼 추가로 편의성 제공 ⭕</li>
+</ol>
+
+  
+### `회원가입 및 로그인 시 Enter키로 가입 및 로그인이 불가능한 문제`
+
+<ol>
+  <li>
+    Form태그로 변경 및 이벤트를 onSubmit으로 바꾸기. ❌
+    <ul>
+      <li>css 등 바꿔야 할게 많아서 오래 걸릴 것 같았음.</li>
+      <li>다음부턴 미리 생각하고 구성하기.</li>
+    </ul>
+  </li>
+  <li>onKeyDown 이벤트 추가하기로 편의성 제공 ⭕</li>
+</ol>
+
+  
+### `Books Of Author 페이지의 Select와 Side bar의 Author 선택이 일치하지 않는 문제`
+
+<ol>
+  <li>Select로 Author 선택 시 링크 이동</li>
+  <li>Sidebar에서 location으로 상태 변경하기 ⭕</li>
+</ol>
+
+
+<div align="right">
+  
+[목차로](#목차)
+
+</div>
+
+
+## 😱문제점
+
+### `DB 및 Server 미연결`
+
+<ul>
+  <li>사이트 재접속 또는 새로고침할 때마다 회원정보 등 초기화</li>
+</ul>
+  
+
+### `내부 데이터 사용`
+
+<ul>
+  <li>이미지 및 도서 정보 등 내부 데이터 사용으로 코딩시간 증가</li>
+</ul>
+  
+
+### `DeskTop 전용 UI`
+
+<ul>
+  <li>모바일 등 다른 기기들을 고려하지 않은 UI 설계</li>
+</ul>
+
+
+<div align="right">
+  
+[목차로](#목차)
+
+</div>
+
+
+## 💡해결방안
+
+### `DB 및 Server 연결`
+
+<ul>
+  <li>DB 연결 후 Aws 서버 연동으로 해결 가능</li>
+  <li>서버가 유료라 부담되면 적어도 DB라도 연결하기</li>
+</ul>
+  
+### `DB에 데이터 저장 및 외부 데이터 찾기`
+
+<ul>
+  <li>도서 Api가 따로 있나 찾아보고 사용하기</li>
+  <li>없을 시 json보다는 DB에 저장해서 사용하기</li>
+</ul>
+
+  
+### `다른 기기에서도 접속 가능한 UI 설계`
+
+<ul>
+  <li>모바일, Mac 등 Desktop을 제외한 기기에서도 UI가 올바르게 출력하도록 설계하기</li>
+</ul>
+
+<div align="right">
+  
+[목차로](#목차)
+
+</div>
+
+
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer" />
