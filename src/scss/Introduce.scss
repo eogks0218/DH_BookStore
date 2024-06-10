@@ -67,7 +67,7 @@
     .introduceTab{
         width: 300px;
         .tab{
-            font-size: 1vh;
+            font-size: .8vh;
         }
     }
     .showTabBox{
@@ -75,5 +75,8 @@
     }
     .detailIntroduce ol li ul li img{
         width: 200px;
+    }
+    .mainText div p{
+        font-size: 1.3vh;
     }
 }
