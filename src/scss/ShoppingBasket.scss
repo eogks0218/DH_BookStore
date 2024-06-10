@@ -57,3 +57,26 @@
         border: 1px solid #776B5D;
     }
 }
+
+@media (max-width: 768px) {
+    .shoppingContainer{
+        width: 300px;
+        h1{
+            font-size: 1rem;
+        }
+        .bookContainer{
+            font-size: .6rem;
+            width: 100px;
+            margin: 10px;
+            margin-bottom: 30px;
+            img{
+                width: 100px;
+            }
+            .cancelButton{
+                svg{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

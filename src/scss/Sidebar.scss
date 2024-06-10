@@ -93,3 +93,24 @@
     border-left: 5px solid #776B5D;
     padding-left: 10px;
 }
+
+@media (max-width: 768px){
+    .sideContainer{
+        ul{
+            margin-left: 50px;
+            li{
+                div{
+                    position: inherit;
+                    background-color: #FFF;
+                }
+                .hideMenu{
+                    position: inherit;
+                }
+                ul{
+                    padding: 0;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

@@ -181,3 +181,60 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .oneDiv{
+        width: 300px;
+        margin: 0 auto;
+        padding: 0;
+        h2{
+            font-size: 1rem;
+            width: 200px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+        >div{
+            width: 300px;
+            ul{
+                display: none !important;
+            }
+            .boxDiv{
+                .nameDiv{
+                    font-size: .5rem;
+                }
+            }
+        }
+    }
+    .threeDiv{
+        width: 300px;
+        padding: 0;
+    }
+    .img-container{
+        img{
+            width: 100px;
+        }
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .info-container{
+        .item-name{
+            font-size: 1rem;
+        }
+        border-bottom: 1px dotted #000;
+        border-right: none;
+    }
+    .item-container{
+        flex-direction: column;
+    }
+    .item-checked{
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .pagination-container{
+        margin-bottom: 50px;
+    }
+}

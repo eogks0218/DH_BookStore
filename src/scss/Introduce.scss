@@ -59,3 +59,21 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .mainText{
+        width: 300px;
+    }
+    .introduceTab{
+        width: 300px;
+        .tab{
+            font-size: 1vh;
+        }
+    }
+    .showTabBox{
+        width: 300px;
+    }
+    .detailIntroduce ol li ul li img{
+        width: 200px;
+    }
+}

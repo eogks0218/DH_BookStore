@@ -199,3 +199,10 @@ a{
     text-align: center;
     color: #860A35;
 }
+
+@media (max-width: 768px){
+    .find-wrap{
+        position: inherit;
+        margin-top: 0;
+    }
+}

@@ -96,3 +96,15 @@
 .nameDiv{
     text-align: center;
 }
+
+
+@media (max-width: 768px){
+    .mainImg{
+        display: none;
+    }
+    .mainMenu{
+        ul{
+            flex-direction: column !important;
+        }
+    }
+}

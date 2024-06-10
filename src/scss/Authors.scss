@@ -134,3 +134,46 @@
         }
     }
 }
+
+@media (max-width:768px){
+    .author-container{
+        width: 300px;
+    }
+    .AuthorBooksContainer{
+        width: 300px;
+        .gridShowBox{
+            width: 80px;
+            span{
+                font-size: .5rem;
+            }
+        }
+        .listShowBox{
+            .listBox{
+                .imgBox{
+                    img{
+                        width: 80px;
+                    }
+                }
+                .titleBox{
+                    .title{
+                        font-size: 1rem;
+                        margin-top: 0;
+                    }
+                    .price{
+                        font-size: .6rem;
+                    }
+                    .basket{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .content{
+                font-size: .5rem;
+            }
+        }
+    }
+    .authorList{
+        font-size: .5rem;
+        width: 120px;
+    }
+}

@@ -192,3 +192,16 @@ a{
         color:#776B5D;
     }
 }
+
+@media (max-width: 768px) {
+    .login-wrap{
+        min-width: 400px;
+        position: inherit;
+        margin-top: 100px;
+        .login-html{
+            .login-form{
+                width: 300px;
+            }
+        }
+    }
+}
